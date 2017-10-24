@@ -1,0 +1,188 @@
+
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; 
+  }
+#mainNav .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F05F40;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+    }
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #f05f40; 
+}
+#mainNav .navbar-toggle {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222; 
+    }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+      color: #F05F40; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: #F05F40 !important;
+      background-color: transparent; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        background-color: transparent; }
+  @media (min-width: 992px) {
+    #mainNav {
+      border-color: rgba(255, 255, 255, 0.3);
+      background-color: transparent; }
+      #mainNav .navbar-brand {
+        color: rgba(255, 255, 255, 0.7); }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: white; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: rgba(255, 255, 255, 0.7); }
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+          color: white; }
+      #mainNav.navbar-shrink {
+        border-color: rgba(34, 34, 34, 0.05);
+        background-color: white; }
+        #mainNav.navbar-shrink .navbar-brand {
+          font-size: 16px;
+          color: #F05F40; }
+          #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+            color: #f05f40; }
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+          color: #222222; }
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+            color: #F05F40; } }
+
+body{
+    background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+    position:relative;
+}
+
+.body p{
+    font-family: 'Lato','Open Sans','Roboto', sans-serif;
+}
+
+.body h1{
+    font-family: 'Lato','Open Sans','Roboto', sans-serif;
+}
+.navbar{
+    opacity:0.6;
+}
+
+.carousel-item{
+    height:54vw;
+    width:100vw;
+}
+
+#about-me p,
+#about-me h1{
+    color: white;
+}
+
+#about-me{
+    background:url(assets/NWU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 58.5vw;
+    position:relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+#about-me-words{
+    text-align: center;
+    z-index: 2;
+    font-size: 2vw;
+    font-size-adjust: auto;
+}
+
+  @media (max-width: 768px){
+      #about-me-words h1,
+      #about-me-words p{
+        text-align: center;
+        z-index: 2;
+        font-size: 1vw;
+}
+    .myphoto,
+    .myphoto-caption{
+        width:30%;
+        font-size:3vw;
+    }
+  }
+
+.myphoto{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width:100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.myphoto img {
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+    z-index: 2;
+    width: 
+}
+
+.myphoto-caption{
+    z-index: 2;
+    position:relative;
+    color: white;
+    vertical-align: baseline;
+}
+
+
+#profolio h1{
+    padding:5%;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20%
+}
