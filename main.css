@@ -119,19 +119,7 @@ body{
     font-size-adjust: auto;
 }
 
-  @media (max-width: 768px){
-      #about-me-words h1,
-      #about-me-words p{
-        text-align: center;
-        z-index: 2;
-        font-size: 1vw;
-}
-    .myphoto,
-    .myphoto-caption{
-        width:30%;
-        font-size:3vw;
-    }
-  }
+
 
 .myphoto{
     display: flex;
@@ -174,6 +162,10 @@ ul{
     vertical-align: baseline;
 }
 
+ul.myphoto-caption{
+    padding: 0px;
+}
+
 
 #profolio h1{
     padding:5%;
@@ -186,3 +178,27 @@ ul{
     flex-direction: column;
     padding:20%
 }
+
+  @media (max-width: 768px){
+      #about-me-words h1,
+      #about-me-words p{
+        text-align: center;
+        z-index: 2;
+        font-size: 2.5vw;
+}
+    .myphoto{
+        font-size:2.5vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .myphoto img{
+        max-height:50px;
+        vertical-align:bottom;
+        margin-top: 3px;
+    }
+    .navbar-brand{
+        font-size:2vw;
+    }
+  }
