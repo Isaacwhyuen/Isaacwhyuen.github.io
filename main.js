@@ -49,9 +49,9 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  $(document).snowfall({ flakeCount: 200, maxSpeed: 10, shadow: true });
+  $(document).snowfall({ flakeCount: 100, maxSpeed: 10, shadow: true });
 
-  $('#profolio').snowfall({ flakeCount: 500, maxSpeed: 10, shadow: true });
+  $('#profolio').snowfall({ flakeCount: 100, maxSpeed: 10, shadow: true });
 
 
 })(jQuery); // End of use strict
